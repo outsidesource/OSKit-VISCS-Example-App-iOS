@@ -1,0 +1,87 @@
+PODS:
+  - OSKit/Build (2.0.0):
+    - OSKit/Core
+  - "OSKit/Build+Resolver (2.0.0)":
+    - OSKit/Build
+    - Resolver (~> 1.4)
+  - OSKit/Core (2.0.0)
+  - OSKit/CoreGraphics (2.0.0):
+    - OSKit/Core
+  - OSKit/Log (2.0.0):
+    - OSKit/Core
+  - "OSKit/Log+Rx (2.0.0)":
+    - OSKit/Log
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - "OSKit/Log+VISCS (2.0.0)":
+    - OSKit/Log
+  - OSKit/RxSwift (2.0.0):
+    - OSKit/Core
+    - RxSwift (~> 5.1)
+  - OSKit/UIKit (2.0.0):
+    - OSKit/CoreGraphics
+  - OSKit/VISCS (2.0.0):
+    - OSKit/Core
+    - OSKit/UIKit
+  - "OSKit/VISCS+Rx (2.0.0)":
+    - OSKit/RxSwift
+    - OSKit/VISCS
+    - RxCocoa (~> 5.1)
+    - RxSwiftExt (~> 5.2)
+  - Resolver (1.5.0)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - XCoordinator (2.2.0):
+    - XCoordinator/Core (= 2.2.0)
+  - XCoordinator/Core (2.2.0)
+
+DEPENDENCIES:
+  - "OSKit/Build+Resolver (from `https://github.com/outsidesource/OSKit-iOS`, branch `main`)"
+  - "OSKit/Log+Rx (from `https://github.com/outsidesource/OSKit-iOS`, branch `main`)"
+  - "OSKit/Log+VISCS (from `https://github.com/outsidesource/OSKit-iOS`, branch `main`)"
+  - "OSKit/VISCS+Rx (from `https://github.com/outsidesource/OSKit-iOS`, branch `main`)"
+  - XCoordinator
+
+SPEC REPOS:
+  trunk:
+    - Resolver
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - XCoordinator
+
+EXTERNAL SOURCES:
+  OSKit:
+    :branch: main
+    :git: https://github.com/outsidesource/OSKit-iOS
+
+CHECKOUT OPTIONS:
+  OSKit:
+    :commit: c0421938d06f59d71b09e0e82acddb7cdfc1fa7c
+    :git: https://github.com/outsidesource/OSKit-iOS
+
+SPEC CHECKSUMS:
+  OSKit: f12bd25b90cfa4e66cac8461077994743caf2bb3
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  XCoordinator: a5f91e43ee944f508529763921165697d3211629
+
+PODFILE CHECKSUM: ef5c3ec87f7633bfc8c1936fefede0a75af55c49
+
+COCOAPODS: 1.11.2
